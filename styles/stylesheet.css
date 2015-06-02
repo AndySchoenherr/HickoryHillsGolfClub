@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*************************
+GENERAL
+*************************/
+body { 
+	background-color: #F3F2B8;
+}
+
+a {
+	text-decoration: none;	
+	}
+	
+.logo {
+	width: 150px;
+	float: right;	
+	padding: 0 50px 0 0;
+	}
+	
+img {
+	max-width: 100%;	
+	}
+
+/*************************
+HEADER
+*************************/
+
+header {	
+	background: #22852f url('../images/background-img.jpg') no-repeat center/ cover;
+	height: 200px;		
+	}
+	
+h1, h2 {
+	text-align: center;	
+	color: #fff;	
+	}
+	
+h2 {
+	margin-bottom: 97px;
+	margin-left: 200px;	
+	}
+	
+	
+/*************************
+Navigation
+*************************/
+
+nav {
+	text-align: center;	
+	font-family: 'Open Sans', sans-serif;
+	}	
+	
+nav ul {
+	list-styles: none;
+	background-color: #fff	
+	}	
+	
+nav li {
+	display: inline-block;
+	padding: 0 15px;
+
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 600;
+	}
+	
+nav a {
+	color: #000;	
+	}
+	
+nav a.selected {
+	color: #3FBA20;	
+	}
+	
+/*************************
+Home
+*************************/
+
+
+#pic-links {
+	max-width: 500px;
+	float: left;
+	margin-bottom: 0;
+	padding-bottom:0;
+}
+	
+#pic-links li {
+	float: left;
+	padding: 30px 0 0 0;        /******** arranged pic-links******/
+	width: 50%;
+		
+	}
+		
+#pic-links ul {
+	list-style-type: none;		/*** this removed bullets from text in body ***/
+	}
+	
+
+
+	
+.welcome {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding-top: 20px;
+	font-size: 2em;
+	float: right;
+	padding-right: 16%;
+	max-width: 45%;
+	text-align: left;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	}
+	
+.description {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	padding-left: 80px;
+	padding-right:10px;
+	max-width: 40%;
+	float: left;
+	margin-top: none;
+}
+	
+
+#weather {
+	max-width: 25%;
+	
+	
+	position: absolute;
+	right: 400px;          /***** moved weather to an absolute position *****/
+	top: 550px;
+	}
+	
+.weatherp {
+	padding-top: 50px;
+	}
+	
+
+/*************************
+Rates
+*************************/
+#RegularRates {
+	margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 25px;
+	 padding: 15px 0 0 15px;
+	 
+	}
+	
+#RegularRates {
+	background: #8BCDD4 url('../images/background.jpg');
+	text-align: center; 
+	max-width: 50%;
+	margin-left: auto;
+	 margin-right: auto;
+	}
+	
+#rate-logo {
+	width: 10%;
+	height: 10%;
+	padding-top: 5%;
+	}
+#HHrates {
+	font-family:'Merriweather', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	}
+	
+#walking, #Carts, #twilight, #Senior  {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	}
+
+#walkingrates, #cartrates, #twilightrates, #SeniorRatesnine, #SeniorRateseightteen, #SeniorWeekend {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	}
+	
+#kidrates, #cartrule {
+	font-family: 'Merriweather', sans-serif; 
+	color: #C11414
+	}
+	
+#gotopackages {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Merriweather', sans-serif; 
+	font-size: 1.2em;
+	padding-bottom: 10px;
+	
+	}
+	
+	.packages:visited { /***** changing color of link so that it matches*****/
+		color: #000;
+	
+	}
+	
+	.packages:hover {
+		cursor: pointer; /***** makes hand pointer for clickable link*******/
+		color: #fff;
+		}
+
+
+/*************************
+Contact
+*************************/
+h3 {
+	text-align: center;	
+	}
+	
+	
+form {
+  float: left;
+  max-width: 50%;
+  margin-top: 40px;
+  margin-left: 15%;
+  margin-right: 40px;
+  padding: 40px 80px;
+  background: #CDC473;
+  border-radius: 8px;
+}	
+
+	
+button {
+  padding: 25px 39px 18px 39px;
+  color: #FFF;
+  background-color: #B4963A;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 50%;
+  border: 1px solid #A1873A;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  margin-left: 25%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 12px 40px;
+  width: 75%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+.john {
+	margin: 40px 40px 15px 0;
+	border-radius: 15px;
+	max-width: 150px;
+	max-height: 150px;
+	}
+	
+.pga {
+	max-width: 100px;
+	max-height: 100px;
+	}
+	
+
+.contact_info {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	}
+	
+	
+/*************************
+Course
+*************************/
+	
+.course_head {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 700;
+	}
+	
+	
+/************************************
+FOOTER
+*************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 10px;  
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
