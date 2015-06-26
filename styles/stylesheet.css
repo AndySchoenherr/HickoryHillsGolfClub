@@ -15,7 +15,7 @@ a {
 .logo {
 	width: 150px;
 	float: right;	
-	padding: 0 50px 0 0;
+	padding: 0 5px 0 0;
 	}
 	
 img {
@@ -40,6 +40,7 @@ h2 {
 	margin-bottom: 97px;
 	margin-left: 200px;	
 	}
+	
 	
 	
 /*************************
@@ -122,14 +123,14 @@ Home
 }
 	
 
-#weather {
+/**#weather {
 	max-width: 25%;
 	
 	
 	position: absolute;
-	right: 400px;          /***** moved weather to an absolute position *****/
+	right: 400px;           moved weather to an absolute position 
 	top: 550px;
-	}
+	}                       **/             
 	
 .weatherp {
 	padding-top: 50px;
@@ -148,7 +149,7 @@ Rates
 	}
 	
 #RegularRates {
-	background: #8BCDD4 url('../images/background.jpg');
+	background: #CDC473;
 	text-align: center; 
 	max-width: 50%;
 	margin-left: auto;
@@ -285,17 +286,7 @@ select {
 	font-weight: 400;
 	}
 	
-	
-/*************************
-Course
-*************************/
-	
-.course_head {
-	font-family: 'Merriweather', sans-serif;
-	font-weight: 700;
-	}
-	
-	
+
 /************************************
 FOOTER
 *************************************/
@@ -313,3 +304,80 @@ footer {
   height: 40px;
   margin: 5px;
 }
+
+
+/************************************
+PACKAGES
+*************************************/
+
+#hhpackages {
+	font-family:'Merriweather', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	}
+	
+.hhp {
+	font-family:'Merriweather', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	}
+
+.p9 {
+	font-family:'Merriweather', sans-serif;
+		}
+		
+		
+/************************************
+COURSE
+*************************************/
+
+.course_head {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	}
+	
+.course_long {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 400;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	
+	}
+	
+	
+.holes {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 400;
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	}
+	
+.coursepic {
+	
+	}
+
+/************************************
+EVENTS
+*************************************/
+
+.calendar {
+	padding-left: 20%;
+	padding-top: 5px;
+	
+	
+	}
+
+.eventHead {
+	text-align: center;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 700;
+	padding-top: 10px;
+	
+	
+	}
+
+
+
